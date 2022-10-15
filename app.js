@@ -5,7 +5,7 @@ const formulario = document.querySelector('#formulario');
 const listarHTML = document.querySelector('#listar');
 const btnListarHTML = document.querySelector('#btnlistar');
 arrayContactos.push({id:1,nombre:"Jose Najera"},{id:2,nombre:"Robert Guerra"},{id:3,nombre:"Jose Najera"});
-console.log(arrayContactos);
+console.table(arrayContactos);
 
 
 //eventos
@@ -16,7 +16,7 @@ formulario.addEventListener('submit',(e)=>{
     pintar();
     formulario.reset();
     let newarray = arrayContactos;
-    console.log(arrayContactos);
+    
     
     const eliminarItem = (datoId,array) => {
         array.map((element,i)=>{
@@ -28,7 +28,7 @@ formulario.addEventListener('submit',(e)=>{
        
     }
     eliminarItem(2,newarray)
-    console.log(newarray);
+    console.table(newarray);
 })
 
 
@@ -45,8 +45,7 @@ const crearItem = (dataNombre)=>{
         nombre: dataNombre
     };
     arrayContactos.push(contactos);
-    console.log(arrayContactos);
-    let newarray = arrayContactos;
+    console.table(arrayContactos);
     return contactos;
 }
 const pintar = ()=>{
