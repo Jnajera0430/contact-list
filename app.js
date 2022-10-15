@@ -7,7 +7,10 @@ const btnListarHTML = document.querySelector('#btnlistar');
 arrayContactos.push({id:1,nombre:"Jose Najera"},{id:2,nombre:"Robert Guerra"},{id:3,nombre:"Jose Najera"});
 console.table(arrayContactos);
 
-
+//-----------------------------------------------------------------------------------------------------------------
+//--------------------------------------TAMBIEN SE EJECUTA EN CONSOLA----------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------
+//está imprimiendo pero tiene un problema en el agregar y no se como arreglarlo si me puede ayudar por favor
 //eventos
 formulario.addEventListener('submit',(e)=>{
     e.preventDefault()
