@@ -10,6 +10,7 @@ console.log(arrayContactos);
 //-----------------------------------------------------------------------------------------------------------------
 //--------------------------------------TAMBIEN SE EJECUTA EN CONSOLA----------------------------------------------
 //-----------------------------------------------------------------------------------------------------------------
+//está imprimiendo pero tiene un problema en el agregar y no se como arreglarlo si me puede ayudar por favor
 //eventos
 formulario.addEventListener('submit',(e)=>{
     e.preventDefault()
