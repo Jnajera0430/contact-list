@@ -7,7 +7,9 @@ const btnListarHTML = document.querySelector('#btnlistar');
 arrayContactos.push({id:1,nombre:"Jose Najera"},{id:2,nombre:"Robert Guerra"},{id:3,nombre:"Jose Najera"});
 console.log(arrayContactos);
 
-
+//-----------------------------------------------------------------------------------------------------------------
+//--------------------------------------TAMBIEN SE EJECUTA EN CONSOLA----------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------
 //eventos
 formulario.addEventListener('submit',(e)=>{
     e.preventDefault()
